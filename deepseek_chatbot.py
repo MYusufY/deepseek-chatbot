@@ -132,7 +132,7 @@ class DeepSeekChatBot:
             else:
                 stable_count = 0
             previous_html = latest_html
-            time.sleep(0.5)
+            time.sleep(1)
 
         raise TimeoutException("WARNING: Failed to get the reply HTML.")
 
